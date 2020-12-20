@@ -1,5 +1,10 @@
+
 .primary-color {
     color: black !important;
+}
+
+.color-white {
+    color: #fff !important;
 }
 
 .primary-bg-color {
@@ -12,4 +17,23 @@
 
 .secondary-bg-color {
     background-color: #c33764 !important;
+}
+
+.primary-button {
+    padding: 8px 40px !important;
+    text-transform: uppercase;
+}
+
+.secondary-outline-button {
+    padding: 8px 40px !important;
+    text-transform: uppercase;
+    border: 1px solid #c33764;
+    border-radius: 3px;
+    background-color: black;
+}
+.secondary-outline-button:hover {
+    background-color: #c33764;
+    color: white !important;
+    border: 1px solid #c33764;
+    border-radius: 3px;
 }
