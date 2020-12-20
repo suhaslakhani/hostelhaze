@@ -1,8 +1,20 @@
-
 .body-container {
     display: flex;
     height: 100vh;
 }
+
+.form-row{
+    display: block !important;
+}
+
+.form-control{
+    width: 420px !important;
+}
+
+.form-control:focus{
+    outline: none !important;   
+  box-shadow: 0 0 0 2px  #c33764  !important;
+ }
 
 .side-one {
     height: 100%;
@@ -27,14 +39,14 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.login-logo {
+.register-logo {
     color: #fff;
     font-size: 60px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.login-title {
+.register-title {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -42,18 +54,8 @@
     margin-top: 20px;
 }
 
-.login-button button{
+.register-button button{
     padding: 8px 40px !important;
     text-transform: uppercase;
     border-color: #c33764;
 }
-
-
-/* ============================================================================================= */
-
-
-.form-control:focus{
-    outline: none !important;   
-  box-shadow: 0 0 0 2px  #c33764  !important;
- }
-
