@@ -27,7 +27,7 @@
 .secondary-outline-button {
     padding: 8px 40px !important;
     text-transform: uppercase;
-    border: 1px solid #c33764;
+    border: 1px solid #c33764 !important;
     border-radius: 3px;
     background-color: black;
 }
