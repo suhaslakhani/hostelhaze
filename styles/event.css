@@ -10,13 +10,37 @@
     background-color: black;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
     color: #c33764!important;
-}
+} */
 
 .card{
-    /*margin: 0 auto;  Added */
-/*  float: none; Added */
-        /*   margin-bottom: 10px; Added */
-        
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
 }
+.card-body{
+    padding: 1px !important;
+}
+.card-title{
+    margin-bottom: 90px;
+}
+.card-text{
+    margin: -83px
+}
+
+.card-left{
+        margin: 160px 198px; 
+        margin-bottom: 10px; 
+    }
+
+.card-center{
+        margin: 160px 198px; 
+        margin-bottom: 10px; 
+    }
+
+.card-right{
+        margin: 160px 198px; 
+        margin-bottom: 10px; 
+    }
