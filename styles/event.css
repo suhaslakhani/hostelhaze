@@ -20,6 +20,11 @@
     justify-content: space-around;
     border: none;
 }
+
+.event-title{
+    margin: 75px 0px 0px 118px;
+
+}
 .card-body{
     padding: 1px !important;
 }
